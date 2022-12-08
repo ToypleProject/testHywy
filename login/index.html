@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>login</title>
+</head>
+<body>
+    <header>
+        <div class="goNewProject">
+            <h3>지금! <span>New Project</span>를 만들러 가볼까요?</h3>
+            <input type="button" value="바로가기▶" onclick="location.href='index.html'; return false;">
+        </div>
+        <div class="topbar">
+            <h1><a href=""index.html"><img src="main_icon.png" alt="Home">TOYPLE</a></h1>
+            <nav>
+                <ul class="menu">
+                    <li><a href="index.html">로그인</a></li>
+                    <li><a href="index.html" class="user_new">회원가입</a></li>
+                    <li><a href="user"><img src="user_icon.png" alt="User" onclick="location.href='index.html'; return false;"></a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <form name="login" class = "login">
+        <h1>로그인</h1>
+        <h4>TOYPLE에서 여러분의 <span>꿈</span>을 펼쳐보세요!</h4>
+        <p>
+            <input type="text" name = "userid" placeholder="아이디를 입력해주세요">
+        </p>
+        <p>
+            <input type="password" name = "userpassword" placeholder="비밀번호를 입력해주세요">
+        </p>
+        <p>
+            <input type="button" onclick="location.href='index.html'; return false;" value="로그인">
+        </p>
+        <p>
+            <input type="button" onclick="location.href='index.html'; return false;" value="회원가입">
+        </p>
+    </form>
+
+<script src="login.js"></script>
+
+</body>
+</html>
